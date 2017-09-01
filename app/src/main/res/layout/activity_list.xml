@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.user.tripper2.List"
+    android:background="#ffffff">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageButton"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerCrop"
+        android:background="#bed8f1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Berlin"
+        android:id="@+id/textView"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:textIsSelectable="true"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="MY INTEREST PLACES"
+        android:id="@+id/button2"
+        android:background="#FF2B81B9"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:textStyle="bold|italic"
+        android:textSize="12sp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="ORDER "
+        android:id="@+id/button3"
+        android:background="#FFBED8F1"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:textColor="#0b4a72"
+        android:typeface="sans"
+        android:textStyle="bold|italic"
+        android:textSize="12sp"
+        android:elegantTextHeight="false"
+        android:nestedScrollingEnabled="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:id="@+id/button5"
+        android:textStyle="bold|italic"
+        android:background="#daeafa"
+        android:padding="20dp"
+        android:textColor="#0b4a72"
+        android:typeface="sans"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"     android:layout_weight="0.5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Matching:"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:textIsSelectable="true"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
